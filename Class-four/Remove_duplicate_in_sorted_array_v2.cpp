@@ -4,7 +4,6 @@ using namespace std;
 
 int removeDuplicate(int arr[], int n) {
     int k = 1;
-    int temp[n];
 
     for(int i=1;i<n;i++) {
         if(arr[i] != arr[k-1]){
