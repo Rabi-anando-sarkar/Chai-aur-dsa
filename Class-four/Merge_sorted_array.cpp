@@ -40,5 +40,6 @@ int main() {
         cout << arr[i] << '\t';
     }
 
+    
     return 0;
 }
