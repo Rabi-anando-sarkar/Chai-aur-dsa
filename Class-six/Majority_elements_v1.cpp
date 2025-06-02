@@ -30,7 +30,7 @@ int majorElem(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> arr = {3,2,3};
+    vector<int> arr = {1,1,3,2,2,2,2,3,2,2,2};
     int result = majorElem(arr);
     cout << result << endl;
     return 0;
