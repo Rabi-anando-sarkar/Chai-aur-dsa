@@ -33,8 +33,6 @@ class Solutions {
                 headB = headB->next;
             }
 
-            
-
             while(!s1.empty() && !s2.empty() && s1.top() == s2.top()) {
                 intersection = s1.top();
                 s1.pop();
