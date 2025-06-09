@@ -30,8 +30,6 @@ class Solution {
             if(head == nullptr) return head;
             if(head->next == nullptr) return head;
 
-            ListNode *next = nullptr;
-
             while(temp != nullptr) {
                 S.push(temp->val);
                 temp = temp->next;
