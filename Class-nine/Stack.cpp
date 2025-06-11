@@ -4,7 +4,7 @@ using namespace std;
 
 class stack {
     private:
-        int arr[100];
+        int arr[10];
         int top;
     public:
         stack() {
